@@ -165,7 +165,11 @@ struct ip_reply_arg {
 	int	    csumoffset; /* u16 offset of csum in iov[0].iov_base */
 				/* -1 if not needed */ 
 	int	    bound_dev_if;
+<<<<<<< HEAD
 	u8  	    tos;
+=======
+	uid_t	    uid;
+>>>>>>> 26f4250... smdk4412: Fix not workig network with android L
 }; 
 
 #define IP_REPLY_ARG_NOSRCCHECK 1
