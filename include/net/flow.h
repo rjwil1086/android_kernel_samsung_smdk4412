@@ -60,7 +60,10 @@ struct flowi4 {
 #define flowi4_proto		__fl_common.flowic_proto
 #define flowi4_flags		__fl_common.flowic_flags
 #define flowi4_secid		__fl_common.flowic_secid
+<<<<<<< HEAD
 #define flowi4_uid		__fl_common.flowic_uid
+=======
+>>>>>>> parent of 2c91e9e... ipv4 & disable selinux
 	__be32			daddr;
 	__be32			saddr;
 	union flowi_uli		uli;
