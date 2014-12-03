@@ -4846,7 +4846,7 @@ struct gpio_keys_button u1_buttons[] = {
 	},			/* power key */
 #if !defined(CONFIG_MACH_U1_NA_SPR) && !defined(CONFIG_MACH_U1_NA_USCC) && !defined(CONFIG_TARGET_LOCALE_NAATT_TEMP)
 	{
-		.code = KEY_HOME,
+		.code = KEY_HOMEPAGE,
 		.gpio = GPIO_OK_KEY,
 		.active_low = 1,
 		.type = EV_KEY,
